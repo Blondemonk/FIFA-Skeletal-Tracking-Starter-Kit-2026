@@ -50,7 +50,7 @@ data/
 └── pitch_points.txt
 ```
 
-- **`images/`**: Stores frame images for each sequence. **Please Ensure that the filenames are sequentially numbered** (e.g., `"00000.jpg"`, `"00001.jpg"`, etc.). You can create the folder using opencv or FFMPEG after downloading the video files.
+- **`images/`**: Stores frame images for each sequence. **Please Ensure that the filenames are sequentially numbered** (e.g., `"00000.jpg"`, `"00001.jpg"`, etc.). You can create the folder using opencv or FFMPEG after downloading the video files (you can also use this [script](video2image.py)
 - **`cameras/`**: Contains `.npz` files with camera parameters for each sequence.
 - **`boxes/`**: Stores bounding box data for each sequence.
 - **`skel_2d/`**: Contains estimated 2D skeletal keypoints (15 keypoints). 
